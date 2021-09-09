@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<!--
+    The HTML Choose-Your-Own-Adventure story:
+
+    The person will choose some choices, and determine which random (cursed) 
+    item they are (based on actual items I have found on the ground, or in other weird places)
+
+    Should be similar to the personality quiz in the Pokemon Mystery Dungeon series
+
+    The items include:
+    A condom on the sidewalk
+    A tampon (unused but open?)
+    A shopping cart in a study room
+    "They don't think it be like it is, but it do"
+    Bald pencil man
+    El pollo
+    Mannequin legs
+    Bart Simson statue
+
+    https://www.youtube.com/watch?v=04vhD6tNnj8
+    Digital typing sounds to add for later
+    https://www.sitepoint.com/syncing-css-animations-with-html5-audio/ 
+
+    Questions taken from https://pokemon.fandom.com/wiki/Red_and_Blue_Rescue_Team_Quiz_Guide 
+
+    Hierarchy of Pages
+
+    home.html -> start.html -> question-01.html -> question-02.html -> question-04.html -> brave.html (A tampon (unused but open?))
+                                                                                        -> hasty.html (A condom on the sidewalk)
+                                                                    -> question-05.html -> calm.html (Mannequin legs)
+                                                                                        -> jolly.html (El pollo)
+                                                -> question-03.html -> question-06.html -> relaxed.html (Bart Simpsom statue)
+                                                                                        -> timid.html (Bald pencil man)
+                                                                    -> question-07.html -> lonely.html ("They don't think it be like it is, but it do")
+                                                                                        -> sassy.html (A shopping cart in a study room)
+
+
+    NOTE: Autoplay, and therfore embedded audio, does not work on Google Chrome
+-->
+
+<html lang="en">
+    <head>
+        <title>Who Even Are You?</title>
+
+        <link href="css/stylesheet.css" rel="stylesheet" type="text/css">
+
+        <meta charset="utf-8">
+    </head>
+
+    <body id="home">
+        <h1 class="typeWrite">Welcome.</h1>
+        <h1 class="typeWrite">You are here to learn about yourself?</h1>
+
+        <br>
+
+        <!-- 'Yes' will lead to a question, 'No' will close the page -->
+        <!-- Closing page code from https://stackoverflow.com/questions/8057802/html-button-close-window/8057854 -->
+        <a href="start.html">Yes</a><br>
+        <a href="" onclick="window.open('', '_self', ''); window.close();">No</a>
+
+
+        <footer>
+            <p>Based on the personality quiz from <a href="https://en.wikipedia.org/wiki/Pok%C3%A9mon_Mystery_Dungeon" target="_blank" style="font-size: 1em;">Pokemon Mystery Dungeon</a></p>
+        </footer>
+    </body>
+</html>
