@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Loop Gallery</title>
+
+        <meta charset="utf-8">
+
+        <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+        <nav>
+            <ul>
+                <li><a href="quiz.html">JavaScript Mini Quiz</a></li>
+                <li><a href="gallery.html">Loop Gallery</a></li>
+            </ul>
+        </nav>
+
+        <p>Choose how many photos you would like to be displayed.</p>
+        <select id="number">
+            <option value="0">Choose a Number</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+
+        <button onclick="createGallery()">Create Gallery</button>
+
+        <div id="gallery"></div>
+
+        <script src="script.js" type="text/javascript"></script>
+    </body>
+</html>

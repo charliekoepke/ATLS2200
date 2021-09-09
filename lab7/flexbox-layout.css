@@ -1,0 +1,158 @@
+/* Flexbox Layout */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(50, 50, 50);
+    margin: 0px;
+}
+
+#container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0px auto;
+    padding: 0px;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: flex-start;
+    align-items: stretch;
+}
+
+#innerflex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: flex-start;
+    align-items: stretch;
+}
+
+header {
+    width: 100%;
+    background-color: rgb(200, 200, 200);
+    padding: 50px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+nav {
+    width: 100%;
+    background-color: rgb(200, 200, 200);
+    margin: 10px 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+nav ul li {
+    display: inline-block;
+    margin: 0px 50px;
+    background-color: rgb(150, 150, 150);
+    padding: 10px;
+}
+nav a {
+    text-decoration: none;
+}
+nav img {
+    width: 10px;
+}
+
+article {
+    width: 100%;
+    background-color: rgb(200, 200, 200);
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: flex-start;
+    align-items: stretch;
+}
+
+footer {
+    width: 100%;
+    background-color:rgb(200, 200, 200);
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: flex-start;
+    align-items: stretch;
+}
+
+.full {
+    background-color: rgb(175, 175, 175);
+    margin: 2%;
+    width: 96%;
+    padding: 2%;
+    box-sizing: border-box;
+}
+
+.half {
+    background-color: rgb(175, 175, 175);
+    margin: 2%;
+    width: 46%;
+    padding: 2%;
+    box-sizing: border-box;
+}
+
+.third {
+    background-color: rgb(175, 175, 175);
+    margin: 2%;
+    width: 29.33333333%;
+    padding: 2%;
+    box-sizing: border-box;
+}
+
+.twothird {
+    background-color: rgb(175, 175, 175);
+    margin: 2%;
+    width: 62.66666666%;
+    padding: 2%;
+    box-sizing: border-box;
+}
+
+.quarter {
+    background-color: rgb(175, 175, 175);
+    margin: 2%;
+    width: 21%;
+    padding: 2%;
+    box-sizing: border-box;
+}
+
+.sixth {
+    background-color: rgb(175, 175, 175);
+    margin: 2%;
+    width: 12.66666666%;
+    padding: 2%;
+    box-sizing: border-box;
+}
+
+.fifth {
+    background-color: rgb(175, 175, 175);
+    margin: 2%;
+    width: 15.99999999%;
+    padding: 2%;
+    box-sizing: border-box;
+}
+
+.eighth {
+    background-color: rgb(175, 175, 175);
+    margin: 2%;
+    width: 8.48888888%;
+    padding: 2%;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}

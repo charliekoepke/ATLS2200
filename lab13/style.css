@@ -1,0 +1,30 @@
+body {
+    background-color: white;
+}
+
+div {
+    display: block;
+}
+
+nav {
+    background-color: grey;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: left;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+nav ul li {
+    display: inline-block;
+    margin: 0px 50px;
+    padding: 10px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+}
