@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<!--
+    5 completed sections:
+    Homepage
+    Gallery of work
+    Contact
+    Resume
+    About Me
+-->
+
+<html lang="en">
+    <head>
+        <title>Charlie Koepke - Portfolio</title>
+
+        <meta charset="utf-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="project2.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="full" id="mainheader">
+                <img src="img/cjk-logo.png" alt="A logo of the initials CJK">
+                <p>Charlie Koepke</p>
+            </div>
+
+            <!-- Used code from https://stackoverflow.com/questions/18813299/changing-image-on-hover-with-css-html to get the hover image right-->
+
+            <div class="quarter">
+                <a href="gallery.html">
+                    <img src="img/gallery-icon.png" alt="An icon of a picture" onmouseover="this.src='img/gallery-icon-hover.png'" onmouseout="this.src='img/gallery-icon.png'">
+                </a>
+            </div>
+
+            <div class="quarter">
+                <a href="resume.html">
+                    <img src="img/resume-icon.png" alt="An icon of a paperclip" onmouseover="this.src='img/resume-icon-hover.png'" onmouseout="this.src='img/resume-icon.png'">
+                </a>
+            </div>
+
+            <div class="quarter">
+                <a href="about-me.html">
+                    <img src="img/about-me-icon.png" alt="An icon of a person" onmouseover="this.src='img/about-me-icon-hover.png'" onmouseout="this.src='img/about-me-icon.png'">
+                </a>
+            </div>
+
+            <div class="quarter">
+                <a href="contact.html">
+                    <img src="img/contact-icon.png" alt="An icon of an envelope" onmouseover="this.src='img/contact-icon-hover.png'" onmouseout="this.src='img/contact-icon.png'">
+                </a>
+            </div>
+        </div>
+        
+        <footer>
+            <p>Charlie Koepke © 2021</p>
+        </footer>
+    </body>
+</html>

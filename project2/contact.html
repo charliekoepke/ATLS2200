@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Charlie Koepke - Contact</title>
+
+        <meta charset="utf-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="project2.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li>
+                    <a href="about-me.html">About Me</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+                <li>
+                    <a href="resume.html">Resume</a>
+                </li>
+                <li>
+                    <a href="gallery.html">Gallery</a>
+                </li>
+                <li class="homebutton">
+                    <a href="index.html">Home</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- https://www.w3schools.com/howto/howto_css_contact_form.asp link used for form -->
+
+        <div class="container">
+            <div class="full" id="articleheader">
+                <h1>Contact</h1>
+            </div>
+
+            <div class="half" id="contactform">
+                <form>
+
+                    <label for="fname">Name</label><br>
+                    <input type="text" id="name" name="name" placeholder="Your name..." required>
+    
+                    <br>
+    
+                    <label for="email">Email</label><br>
+                    <input type="text" id="email" name="email" placeholder="Your email..." required>
+    
+                    <br>
+                
+                    <label for="comments">Comments</label><br>
+                    <textarea id="comments" name="comments" placeholder="Write something..." style="height:150px"></textarea>
+    
+                    <br>
+                
+                    <input type="submit" name="submit" value="Submit" onclick="alert('Thank you for contacting me. I will get back to you as soon as I can.')">
+                
+                  </form>
+            </div>
+            <div class="half">
+                <p>My school email is <a href="mailto:Charlie.Koepke@colorado.edu" target="_blank">Charlie.Koepke@colorado.edu</a>, and</p>
+                <p>my personal email is <a href="mailto:charliejunkoepke@gmail.com" target="_blank">charliejunkoepke@gmail.com</a>.</p>
+                <p>You can contact me at either email, as I check both daily. It will take me about 1-2 days to get back to you.</p>
+                <br>
+                <br>
+                <a href="https://www.linkedin.com/in/charlie-koepke-03448a1b6/" target="_blank">
+                    <img src="img/linkedin.png" alt="An icon of LinkedIn" onmouseover="this.src='img/linkedin-hover.png'" onmouseout="this.src='img/linkedin.png'" style="width: 5%;">
+                </a>
+            </div>
+        </div>
+
+        <footer>
+            <p>Charlie Koepke © 2021</p>
+        </footer>
+    </body>
+</html>
