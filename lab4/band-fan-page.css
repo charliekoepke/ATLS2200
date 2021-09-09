@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(185, 231, 248);
+}
+/* The main heading at the top of both pages */
+.main-head {
+    font-size: 3em;
+    font-family: 'Andale Mono', monospace;
+    text-align: center;
+}
+h3 {
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Andale Mono', monospace;
+}
+article {
+    text-align: center;
+    font-size: .9em;
+    font-family: 'Andale Mono', monospace;
+}
+
+/* Based nav bar on https://www.w3schools.com/css/css_navbar_horizontal.asp */
+nav {
+    font-family: 'Andale Mono', monospace;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: aqua;
+    color: black;
+}
+
+/* Making it so the pictures line up (only works in fullscreen) */
+figure {
+    display: inline-block;
+    text-align: center;
+    margin-left: 300px;
+}
+
+/* Formatting the figcaption tags to match the website style */
+figcaption {
+    color: grey;
+    font-size: .75em;
+    font-family: 'Andale Mono', monospace;
+}
+
+/* Formatting for the album covers that are in the photo gallery */
+.album {
+    width: 50%;
+}
+
+/* Formatting the audio files so they line up */
+.audio-file {
+    margin-left: 200px;
+}
